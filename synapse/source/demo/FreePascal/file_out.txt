@@ -1,0 +1,67 @@
+<html>
+<head>
+<title>Яndex</title>
+<link rel="SHORTCUT ICON" href="/favicon.ico" />
+<base target="_top" />
+<style type="text/css">
+* {font-size:100.01%}
+body {font-size:0.8em}
+body, a {color:#999999}
+form {margin:0}
+a:hover, div a, div i {color:#000000}
+div a {color:#000000;text-decoration:none}
+div a span, div a i {text-decoration:underline;font-style:normal;}
+div a:hover {color:#ff0000}
+table table
+{
+max-width:1000px;
+width:60%;
+width:expression(document.body.clientWidth > 1600 ? '1000px' : '60%');
+}
+table table td {padding:0.25em}
+#text {width:100%}
+#text * {width:100%}
+div {padding:2em 0 2em 20px;width:400px;//width:250px;}
+p {padding:5em 2em 2px 2em;margin:0}
+</style>
+<style type="text/css" media="handheld">
+body {padding:0.5em;margin:0}
+tr, td {display:block}
+table, table table, td, div, p {padding:0;height:auto;width:100%;text-align:center}
+#text * {width:180px}
+input {margin:0.5em 0}
+</style>
+</head>
+<body bgcolor="#ffffff" onload="if(self.parent.frames.length!= 0) self.parent.location=document.location; else document.web.text.focus();">
+<table border="0" width="100%" height="100%">
+<tr>
+<td align="center" colspan="2">
+<form name="web" method="get" action="http://www.yandex.ru/yandsearch">
+<input type="hidden" name="rpt" value="rad" />
+
+<table border="0">
+<tr>
+<td><a href="http://www.yandex.ru/"><img src="logo.gif" width="76" height="44" border="0" alt="Яндекс" /></a></td>
+<td id="text"><input type="text" name="text" size="50" maxlength="160" /></td>
+<td><input type="submit" value="Найти!" /></td>
+</tr>
+<tr>
+<td colspan="3"><div><a href="http://mail.yandex.ru"><span>Почта</span><i> @</i></a></div></td>
+</tr>
+</table>
+</form>
+</td>
+</tr>
+<tr valign="bottom">
+
+<td width="50%" height="1">
+<p align="right">&copy; 1997&#151;2006 &laquo;<a href="http://www.yandex.ru/" class="copy">Яндекс</a>&raquo;</p>
+</td>
+<td width="50%">
+<p>Дизайн&nbsp;&#151;&nbsp;<a href="http://www.artlebedev.ru/" class="copy">Студия Артемия Лебедева</a></p>
+</td>
+</tr>
+</table>
+</body>
+</html>
+

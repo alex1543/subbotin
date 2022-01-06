@@ -1,0 +1,5 @@
+if (($sk=@fsockopen('freepascal.ru',80,$errno,$errstr,5))==true) { 
+    fputs($sk,"GET /index.html HTTP/1.0\nHOST: freepascal.ru\n\n"); 
+    while (!feof($sk)) $out.=fgets($sk,128); 
+    fclose($sk); 
+} 
